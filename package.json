@@ -1,0 +1,62 @@
+{
+  "name": "react-simple-starter",
+  "version": "0.1.0",
+  "description": "Simple starter for React JS",
+  "scripts": {
+    "start": "node dev-server.js",
+    "start-verbose": "node dev-server.js --verbose",
+    "build": "webpack --progress -p --config ./webpack.config.prod.js",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack"
+  ],
+  "author": "Pete Januarius <pete@nexgencodecamp.com.au> (http://github.com/nexgencodecamp)",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "7.1.1",
+    "babel-loader": "^6.0.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "css-loader": "^0.26.4",
+    "eslint": "3.17.1",
+    "eslint-plugin-react": "6.10.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "node-sass": "^3.10.1",
+    "optimize-css-assets-webpack-plugin": "^1.3.0",
+    "postcss-loader": "^1.0.0",
+    "react-hot-loader": "^3.0.0-beta.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  }
+}
