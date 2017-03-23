@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import ItemViewer from '../ItemViewer/ItemViewer';
-import ProductDefaultDescription from '../ProductDefaultDescription/ProductDefaultDescription';
 
 import '../../sass/index.scss';
 
@@ -14,13 +12,7 @@ export default class App extends Component {
 
   render() {
     return (
-        <ItemViewer>
-            {/*
-                Pass in a child component that represents the product being shown
-                Potentially, we could use ItemViewer to view multiple product types
-            */}
-            <ProductDefaultDescription />
-        </ItemViewer>
+        <div>Hallo Simple React</div>
     );
   }
 }
